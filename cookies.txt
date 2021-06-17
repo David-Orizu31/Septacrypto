@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+btctrade.ltd	TRUE	/	FALSE	1999999999	CameFrom	deleted
+btctrade.ltd	TRUE	/	FALSE	1999999999	PHPSESSID	dg3quaqmn088h96g7cf7sb4rm7
+
