@@ -313,7 +313,7 @@ background-clip: padding-box;
     </div><!-- row end -->
     <div class="row justify-content-center mb-none-30">
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="lar la-copy"></i>                </div>
@@ -323,7 +323,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="fade-up" data-aos-duration="1500">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-lock"></i>                </div>
@@ -333,7 +333,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="zoom-out-left" data-aos-duration="1500">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-user-lock"></i>                </div>
@@ -343,7 +343,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1800">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-shipping-fast"></i>                </div>
@@ -353,7 +353,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1800">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-users"></i>                </div>
@@ -363,7 +363,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1800">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-headset"></i>                </div>
@@ -373,7 +373,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="zoom-out-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-server"></i>                </div>
@@ -383,7 +383,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="flip-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="fab fa-expeditedssl"></i>                </div>
@@ -393,7 +393,7 @@ background-clip: padding-box;
         </div><!-- choose-card end -->
       </div>
                 <div class="col-xl-4 col-md-6 mb-30">
-        <div class="choose-card border-radius--5">
+        <div class="choose-card border-radius--5" data-aos="fade-up" data-aos-anchor-placement="bottom-center" data-aos-duration="2000">
           <div class="choose-card__header mb-3">
             <div class="choose-card__icon base--color">
               <i class="las la-shield-alt"></i>                </div>
@@ -418,6 +418,13 @@ background-clip: padding-box;
       </div> </center>
 </div>
 </section> -->
+
+<style>
+  html body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+</style>
 
 
                     <section class="pt-120 pb-120">
@@ -1060,7 +1067,12 @@ Digital currencies are very volatile and highly speculative thus carries a high 
         });
     }
 </script>
-  
+
+<link rel="stylesheet" href="aos/aos.css">
+<script src="aos/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 
   </body>
