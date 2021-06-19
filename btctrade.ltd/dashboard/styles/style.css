@@ -1067,7 +1067,7 @@ img.image-xl {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:focus {
   width: 200px;
-  background-color: #CCA354;
+  background-color: goldenrod;
   height: 60px;
   padding: 20px 25px;
   font-weight: 400;
