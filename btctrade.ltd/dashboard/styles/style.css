@@ -1079,7 +1079,7 @@ img.image-xl {
 }
 .navbar-default .navbar-brand:hover {
   color: #FFFFFF;
-  background-color: #be9649;
+  background-color: goldenrod;
 }
 .navbar-brand span {
   letter-spacing: normal;

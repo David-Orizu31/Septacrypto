@@ -16,9 +16,9 @@
 	margin: 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdc901+0,f8b017+50,f29430+100 */
 	background: #fdc901; /* Old browsers */
-	background: #BE9649; /* FF3.6-15 */
-	background: #BE9649; /* Chrome10-25,Safari5.1-6 */
-	background: #BE9649; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: goldenrod; /* FF3.6-15 */
+	background: goldenrod; /* Chrome10-25,Safari5.1-6 */
+	background: goldenrod; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdc901', endColorstr='#f29430', GradientType=0 ); /* IE6-9 */
 	font-weight: 600;
 	text-align: left;
@@ -44,7 +44,7 @@
 	width: 100%;
 	float: left;
 	background: #000000;
-	border: 3px solid #BE9649;
+	border: 3px solid goldenrod;
 	border-top: 0;
 	padding: 10px 50px 30px;
 	border-radius: 0 0 30px 30px;
