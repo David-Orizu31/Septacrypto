@@ -362,8 +362,7 @@ var cps = {};
 
 <h3 id="formname_main" style="    width: 775px;">Make a Deposit</h3>
 <br>
-
-<form method=post name="spendform"><input type="hidden" name="form_id" value="16238820661640"><input type="hidden" name="form_token" value="d26d8a077dfc2d6a00f32d32577bd764">
+<input type="hidden" name="form_id" value="16238820661640"><input type="hidden" name="form_token" value="d26d8a077dfc2d6a00f32d32577bd764">
 <input type=hidden name=a value=deposit>
  Select a plan:<br>
   <div class="table-responsive">
@@ -386,18 +385,32 @@ var cps = {};
 <tr>
  <td colspan=3 align=right>
      <div style="display: block; margin-top: 5px">
+      <input type="text" name="" id="pricenow">
+      <a href="#" class="btn btn-primary btn-xs">Calculate Profit <i class="fa fa-angle-double-right"></i></a>
+      <button onclick="myFunction()">Click me</button>
 
-                                                                            <a ng-controller="PopupsController" style="" href="javascript:openCalculator('1')"
-                                           class="btn btn-primary btn-xs">
-                                            Calculate Profit <i class="fa fa-angle-double-right"></i>
-                                        </a>
+      <p id="demo"></p>
+      
+      <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello World";
+      }
+      </script>
+    
                                                                         </div>
      </td>
+     
 </tr>
-</table></div><br><br>
+
+</table>
+
+</div>
+
+<br><br>
 <script>
 cps[1] = [];
 </script>
+
  <div class="table-responsive">
 <table id="tableExample3" class="table table-striped table-hover" cellspacing=1 cellpadding=2 border=0 width=100%><tr>
      <td colspan=3 style="   background: goldenrod;color: #ffffff;">
@@ -496,13 +509,16 @@ cps[4] = [];
 </script>
 
  <div class="table-responsive">
+  <form action="/investplan" method="get">
 <table id="tableExample3" class="table table-striped table-hover" cellspacing=0 cellpadding=2 border=0 width=100%>
-<div class="form-group">
+ 
+
+  <div class="form-group">
                 <label>Amount ($)</label>
                 <input class="form-control" type="text" name=amount value='200.00'/>
             </div>
 
-			
+         
 			
   <div class="form-group">
                 <label>Deposit from</label>
