@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="vendor/css/font-awesome.css"/>
     <link rel="stylesheet" href="vendor/css/animate.css"/>
     <link rel="stylesheet" href="vendor/css/bootstrap.css"/>
+    <link rel="stylesheet" href="vendor/css/navigation.css">
     <!-- <link rel="stylesheet" href="vendor/toastr/toastr.min.css"/>
      <link rel="stylesheet" href="vendor/select2/dist/css/select2.min.css"/> -->
 
@@ -33,133 +34,133 @@
 <body class="pace-done">
 
 <!-- Wrapper-->
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
 
     <!-- Header-->
-        <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <div id="mobile-menu">
-                    <div class="left-nav-toggle">
-                        <a href="#">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </div>
-                </div>
-                <a class="navbar-brand" href="../">
-                   Welcome                </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <div class="left-nav-toggle">
-                    <a href="#">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                </div>
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown ">
-                     
-                    </li>
-                    <li class="profil-link">
-                        <a href="">
-                            <span class="profile-address"> </span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    
-                    <li class=" profil-link">
-                        <a href="profile.html">
-                            <span class="profile-address">derrickuwe</span>
-                            <img src="../images/profile.png" class="img-circle" width="35" height="20" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            
-        </div>
-        <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <div id="mobile-menu">
+                  <div class="left-nav-toggle">
+                      <a href="#" id="mobile-toggle">
+                          <i class="fas fa-bars"></i>
+                      </a>
+                  </div>
+              </div>
+              <a class="navbar-brand" href="dashboard.html" style="background-color: rgb(19, 18, 18);">
+                 <img src="../assets/images/logoIcon/btctrade2.png" alt="sepatcrypto-logo" class="img img-responsive">               </a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+              <div class="left-nav-toggle">
+                  <a href="#" id="menu-toggle">
+                      <i class="fas fa-bars"></i>
+                  </a>
+              </div>
+              <ul class="nav navbar-nav navbar-left">
+                  <li class="dropdown ">
+                   
+                  </li>
+                  <li class="profil-link">
+                      <a href="">
+                          <span class="profile-address"> </span>
+                      </a>
+                  </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class=" profil-link">
+                      <a href="profile.html">
+                          <span class="profile-address">derrickuwe</span>
+                          <img src="../images/profile.png" class="img-circle" width="35" height="20" alt="">
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          
+      </div>
+      <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
 <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,hummingbird-finance,dogecoin,eos,ripple,litecoin,shiba-inu" currency="usd" background-color="goldenrod" locale="en" font-color="#ffffff"></coingecko-coin-price-marquee-widget>
-    </nav>
+  </nav>
 
-    <aside class="navigation">
-        <nav>
-            <ul class="nav luna-nav">
-                <li class="nav-category"><br/>
-                    Main
-                </li>
+  <aside class="navigation" id="sidebar-wrapper">
+      <nav id="spy">
+          <ul class="nav luna-nav sidebar-nav">
+              <li class="nav-category"><br/>
+                  Main
+              </li>
+              <li class="">
+                  <a href="dashboard.html">Dashboard</a>
+              </li>
                 <li class="">
-                    <a href="dashboard.html">Dashboard</a>
-                </li>
-                  <li class="">
-                    <a href="deposit.html">
-                    Make Deposit
-                    </a>
-                    
-                </li>
-                <li class="">
-                   <a href="deposit-history.html">
-                Deposit History
-                    </a>
-                    
-                </li>
-                <li class="">
-                    <a href="transaction-history.html">
-                    Transaction History
-                    </a>
-                    
-                </li>
-                 
-                <li class="">
-                    <a href="withdraw.html">
-                  Request Withdrawal
-                    </a>
-                    
-                </li>
+                  <a href="deposit.html">
+                  Make Deposit
+                  </a>
+                  
+              </li>
+              <li class="">
+                 <a href="deposit-history.html">
+              Deposit History
+                  </a>
+                  
+              </li>
+              <li class="">
+                  <a href="transaction-history.html">
+                  Transaction History
+                  </a>
+                  
+              </li>
                
-                <li class="">
-                    <a href="refferal-link.html">Referral Links</a>
-                    
-                </li>
-                 <li class="">
-                    <a href="refferals.html">My Referrals</a>
-                    
-                </li>
-                <li class="">
-                    <a href="profile.html">Account Profile</a>
-                    
-                </li>
-                <li>
-                    <a href="mailto:support@septacrypto.ltd">Contact Support</a>
-                    
-                </li>
-                
-                <li>
-                    <a href="../index.html">Logout</a>
-                    
-                </li>
-                
-                
-                
-                <li class="nav-info text-center">
-                    <i class="fa fa-bitcoin text-accent"></i>
+              <li class="">
+                  <a href="withdraw.html">
+                Request Withdrawal
+                  </a>
+                  
+              </li>
+             
+              <li class="">
+                  <a href="refferal-link.html">Referral Links</a>
+                  
+              </li>
+               <li class="">
+                  <a href="refferals.html">My Referrals</a>
+                  
+              </li>
+              <li class="">
+                  <a href="profile.html">Account Profile</a>
+                  
+              </li>
+              <li>
+                  <a href="mailto:support@septacrypto.ltd">Contact Support</a>
+                  
+              </li>
+              
+              <li>
+                  <a href="../index.html">Logout</a>
+                  
+              </li>
+              
+              
+              
+              <li class="nav-info text-center">
+                  <i class="fa fa-bitcoin text-accent"></i>
 
-                    <div class="m-t-xs">
-                        <span class="c-white">Septacrypto.LTD</span> is built on modern high end technology and hosted on highly secured web servers located in different parts of the world.
-                        
-                        <br>
-                        
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </aside>
+                  <div class="m-t-xs">
+                      <span class="c-white">Septacrypto.LTD</span> is built on modern high end technology and hosted on highly secured web servers located in different parts of the world.
+                      
+                      <br>
+                      
+                  </div>
+              </li>
+          </ul>
+      </nav>
+  </aside>
 <section class="content bg-b-danger" style="margin-bottom: 0px; padding-bottom: 0px;">
             
 </section>
 
 <title>Deposit - Septacrypto.ltd</title>
  <!-- Main content-->
-    <section class="content" style=" margin-top: 0px;">
+    <section id="page-content-wrapper" style=" margin-top: 0px;">
             <style scoped="">
         .button-success,
         .button-error,
@@ -570,7 +571,9 @@ updateCompound();
                                 </div>
     
     
-
+                                <script src="vendor/js/jquery.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="vendor/js/navigation.js"></script>
 
 </body>
 

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="vendor/css/font-awesome.css"/>
     <link rel="stylesheet" href="vendor/css/animate.css"/>
     <link rel="stylesheet" href="vendor/css/bootstrap.css"/>
+    <link rel="stylesheet" href="vendor/css/navigation.css">
     <!-- <link rel="stylesheet" href="vendor/toastr/toastr.min.css"/>
      <link rel="stylesheet" href="vendor/select2/dist/css/select2.min.css"/> -->
 
@@ -33,25 +34,25 @@
 <body class="pace-done">
 
 <!-- Wrapper-->
-<div class="wrapper">
+<div class="wrapper" id="wrapper">
 
     <!-- Header-->
-        <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <div id="mobile-menu">
                     <div class="left-nav-toggle">
-                        <a href="#">
+                        <a href="#" id="mobile-toggle">
                             <i class="fas fa-bars"></i>
                         </a>
                     </div>
                 </div>
-                <a class="navbar-brand" href="../">
-                   Welcome                </a>
+                <a class="navbar-brand" href="dashboard.html" style="background-color: rgb(19, 18, 18);">
+                   <img src="../assets/images/logoIcon/btctrade2.png" alt="sepatcrypto-logo" class="img img-responsive">               </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <div class="left-nav-toggle">
-                    <a href="#">
+                    <a href="#" id="menu-toggle">
                         <i class="fas fa-bars"></i>
                     </a>
                 </div>
@@ -81,9 +82,9 @@
 <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,hummingbird-finance,dogecoin,eos,ripple,litecoin,shiba-inu" currency="usd" background-color="goldenrod" locale="en" font-color="#ffffff"></coingecko-coin-price-marquee-widget>
     </nav>
 
-    <aside class="navigation">
-        <nav>
-            <ul class="nav luna-nav">
+    <aside class="navigation" id="sidebar-wrapper">
+        <nav id="spy">
+            <ul class="nav luna-nav sidebar-nav">
                 <li class="nav-category"><br/>
                     Main
                 </li>
@@ -160,7 +161,7 @@
 
         <title>Withdrawal - Septacrypto.ltd</title>
         <!-- Main content-->
-    <section class="content" style=" margin-top: 0px;">
+    <section id="page-content-wrapper" style=" margin-top: 0px;">
             <div class="container-fluid">
 
                 <div class="row">
@@ -251,5 +252,8 @@ You have no funds to withdraw.
 
 </body>
 
+<script src="vendor/js/jquery.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="vendor/js/navigation.js"></script>
 
 </html>
