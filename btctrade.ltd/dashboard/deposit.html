@@ -388,10 +388,19 @@ var cps = {};
  <td colspan=3 align=right>
      <div style="display: block; margin-top: 5px">
 
-                                                                            <a ng-controller="PopupsController" style="" href="javascript:openCalculator('1')"
-                                           class="btn btn-primary btn-xs">
-                                            Calculate Profit <i class="fa fa-angle-double-right"></i>
-                                        </a>
+      <input type="text" name="" id="pricenow">
+      <a  onclick="myFunction()" class="btn btn-primary btn-xs">Calculate Profit <i class="fa fa-angle-double-right"></i></a>
+      
+
+      <p id="demo"></p>
+      
+      <script>
+      function myFunction() {
+       var getPricenow = document.getElementById("pricenow").value;
+       
+        document.getElementById("demo").innerHTML = '$ ' + getPricenow;
+      }
+      </script>
                                                                         </div>
      </td>
 </tr>
